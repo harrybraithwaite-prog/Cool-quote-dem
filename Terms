@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Terms & Conditions – Cool Quote</title>
+<link rel="stylesheet" href="styles.css">
+</head><body>
+<header>
+  <div class="brand"><img src="assets/logo.svg" alt="Cool Quote logo"><strong>Cool Quote</strong></div>
+  <nav><a href="index.html">Home</a><a href="faq.html">FAQ</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a></nav>
+</header>
+<section class="container">
+  <h1>Terms & Conditions</h1>
+  <p><strong>Cool Quote is a facilitator.</strong> We do not supply or install products. We connect you with independent, qualified local fitters who carry out the installation. Any installation contract is between you and the fitter.</p>
+  <h3>Quotes</h3>
+  <ul>
+    <li>Quotes are indicative and based on information you provide.</li>
+    <li>Quotes are valid for 30 days unless stated otherwise.</li>
+    <li>Further site information or photos may be requested by the fitter.</li>
+  </ul>
+  <h3>Payments</h3>
+  <ul>
+    <li>The consignment fee/deposit (£150 + VAT) is payable to Cool Quote at acceptance.</li>
+    <li>Remaining balance is paid through the platform to the fitter after job completion.</li>
+  </ul>
+  <h3>Liability</h3>
+  <p>Cool Quote is not responsible for the works carried out by the fitter. Responsibility for workmanship, warranties and compliance sits with the fitter.</p>
+</section>
+<footer class="container"><div>© <span id="year"></span> Cool Quote.</div></footer>
+<script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body></html>
