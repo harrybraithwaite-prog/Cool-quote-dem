@@ -1,0 +1,9 @@
+{
+  "name": "Cool Quote",
+  "short_name": "CoolQuote",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#1e3a8a",
+  "icons": []
+}
