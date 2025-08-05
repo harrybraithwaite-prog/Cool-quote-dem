@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Cool Quote – Local Fitters</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+  <div class="brand">
+    <img src="assets/logo.svg" alt="Cool Quote logo">
+    <strong>Cool Quote</strong>
+  </div>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="faq.html">FAQ</a>
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+  </nav>
+</header>
+<section class="container">
+  <h1>Contact a local fitter</h1>
+  <p>If you can’t provide photos for upper-floor installations right now, please contact one of our trusted local fitters below to receive a full quote directly.</p>
+  <div class="grid two">
+    <div class="card">
+      <h3>AC Specialists North</h3>
+      <div class="small">Leeds & Yorkshire</div>
+      <div class="small">Phone: 01234 567890</div>
+      <div class="small">Email: north@example.com</div>
+    </div>
+    <div class="card">
+      <h3>SouthCool Installations</h3>
+      <div class="small">London & South East</div>
+      <div class="small">Phone: 0207 123 4567</div>
+      <div class="small">Email: south@example.com</div>
+    </div>
+  </div>
+</section>
+<footer class="container">
+  <div>© <span id="year"></span> Cool Quote.</div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+</script>
+</body>
+</html>
